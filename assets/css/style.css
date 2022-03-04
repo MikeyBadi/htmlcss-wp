@@ -1,0 +1,90 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix::after{
+  content: '';
+  display: table;
+  clear:both
+}
+
+.container{
+  margin: auto;
+  width: 85%;
+  max-width: 1200px;
+}
+
+/* 
+  HEADER
+*/
+header div{
+  margin-bottom: 30px;
+}
+
+/* Main Navigation Menu */
+.logo-menu{
+  height: 130px;
+  background-color: #E579E6;
+
+}
+
+/* Jumbotron */
+.jumbo{
+  height: 500px;
+  background-color: #E1D77A;
+}
+
+/* 
+  MAIN
+*/
+
+/* body of the main */
+.corp{
+  height: 670px;
+  background-color: #0086FF;
+}
+
+section, aside, .main-header{
+  background-color: #ABCFE6;
+  margin-bottom: 20px;
+}
+
+/* Main's header */
+.main-header{
+  height: 90px;
+}
+
+/* columns */
+.col{
+  float: left;
+  height: 540px;
+}
+
+.col-left, .col-right{
+  width: 20%;
+}
+
+.main-col{
+  width: 58%;
+
+}
+
+.col-left{
+  margin-right: 1%;
+}
+
+.col-right{
+  margin-left: 1%;
+}
+
+/*
+ FOOTER 
+ */
+
+ footer div{
+  margin-top: 10px;
+  height: 60px;
+  background-color: #8800FF;
+ }
