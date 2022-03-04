@@ -17,6 +17,11 @@
   max-width: 1200px;
 }
 
+.overlay{
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
 /* 
   HEADER
 */
@@ -57,16 +62,47 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-  background-color: #e6e6e6;
-  color: white;
+  background-color: #dadada;
+  color: rgb(255, 253, 253);
   cursor: pointer;
 }
 
 /* Jumbotron */
 .jumbo{
+  background-image: url('../img/banner.jpg');
+  background-size: cover;
+  background-position: center;
   height: 500px;
-  background-color: #E1D77A;
+  border-radius: 10px;
+  overflow: hidden;
+  color: white;
+  margin-bottom: 15px;
+  width: 100%;
 }
+
+.text{
+  text-align: justify;
+}
+
+.jumbo .text h3{
+  padding: 25% 45% 0 5%;
+  font-size: 1.8rem;
+}
+
+.jumbo .text p{
+  padding-right: 50%;
+  padding-left: 5%;
+}
+
+
+
+
+
+
+
+
+
+
 
 /* 
   MAIN
