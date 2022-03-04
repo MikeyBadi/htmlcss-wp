@@ -45,7 +45,6 @@ nav ul{
 }
 
 nav ul li{
-  display: inline-block;
   float: left;
 }
 
@@ -146,6 +145,16 @@ section, aside, .main-header{
 .col-right{
   margin-left: 1%;
 }
+
+
+
+
+
+
+
+
+
+
 
 /*
  FOOTER 
