@@ -28,6 +28,16 @@ body{
 }
 
 
+.img-col{
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 20px;
+
+}
+
+
 /* 
   HEADER
 */
@@ -148,14 +158,6 @@ color: #9f9f9f;
   height: 200px;
 }
 
-.img-col{
-  background-size: cover;
-  background-position: center;
-  border-radius: 10px;
-  overflow: hidden;
-  margin-bottom: 20px;
-
-}
 
 .main-col{
   width: 58%;
