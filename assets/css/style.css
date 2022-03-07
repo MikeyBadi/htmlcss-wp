@@ -68,6 +68,7 @@ nav ul li a:hover{
   background-color: #dadada;
   color: rgb(255, 253, 253);
   cursor: pointer;
+  border-radius: 3px;
 }
 
 /* Jumbotron */
